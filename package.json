@@ -1,0 +1,23 @@
+{
+  "name": "com.sotakebk.sunsharp.unity",
+  "version": "0.0.0",
+  "displayName": "SunSharp for Unity",
+  "description": "A Unity version of the SunVox C# wrapper. Read more on the GitHub page.",
+  "unity": "2021.3",
+  "unityRelease": "18f1",
+  "license" : "See LICENSE.md file",
+  "documentationUrl": "https://github.com/Sotakebk/SunSharpUnity",
+  "dependencies": {
+  },
+ "keywords": [
+    "SunVox",
+    "sound",
+    "music",
+    "audio"
+  ],
+  "author": {
+    "name": "Sotakebk",
+    "email": "sotakebk@gmail.com",
+    "url": "https://github.com/Sotakebk/"
+  }
+}

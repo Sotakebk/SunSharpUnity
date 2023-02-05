@@ -1,0 +1,18 @@
+{
+    "name": "com.sotakebk.sunsharp.unity.editor",
+    "rootNamespace": "SunSharp.Unity.Editor",
+    "references": [
+        "GUID:8b27b069a1f5df34e92d69ada46e758f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
