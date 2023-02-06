@@ -2,8 +2,6 @@ using UnityEditor;
 
 #if UNITY_EDITOR
 
-using UnityEngine;
-
 #endif
 
 namespace SunSharp.Unity
@@ -48,7 +46,6 @@ namespace SunSharp.Unity
                 if (_instance.Initialized)
                     (_instance as ISunVoxLib).sv_deinit();
             });
-            Debug.Log($"TryUnloadLibrary ran!");
         }
 
 #endif

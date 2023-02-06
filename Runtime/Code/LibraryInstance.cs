@@ -1,5 +1,4 @@
 using System;
-using UnityEngine;
 
 namespace SunSharp.Unity
 {
@@ -29,11 +28,9 @@ namespace SunSharp.Unity
         {
             lock (_lock)
             {
-                Debug.Log("Init");
                 if (_initialized)
                     return -1;
 
-                Debug.Log("Init - passing");
                 var ret = DllImport.sv_init(config, freq, channels, flags);
                 if (!_initialized && ret > 0)
                     _initialized = true;
@@ -45,11 +42,9 @@ namespace SunSharp.Unity
         {
             lock (_lock)
             {
-                Debug.Log("Deinit");
                 if (!_initialized)
                     return -1;
 
-                Debug.Log("Deinit - passing");
                 var ret = DllImport.sv_deinit();
                 if (_initialized && ret == 0)
                     _initialized = false;

@@ -34,6 +34,9 @@ namespace SunSharp.Unity.Editor
         {
             lock (_lock)
             {
+                if (_initialized)
+                    return -1;
+
                 var ret = DllImport.sv_init(config, freq, channels, flags);
                 if (!_initialized && ret > 0)
                     _initialized = true;
@@ -45,6 +48,9 @@ namespace SunSharp.Unity.Editor
         {
             lock (_lock)
             {
+                if (!_initialized)
+                    return -1;
+
                 var ret = DllImport.sv_deinit();
                 if (_initialized && ret == 0)
                     _initialized = false;

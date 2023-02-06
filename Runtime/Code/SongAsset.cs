@@ -6,7 +6,7 @@ namespace SunSharp.Unity
     public class SongAsset : ScriptableObject
     {
         [SerializeField] private bool _constructed;
-        [HideInInspector] [SerializeField] private byte[] _data;
+        [HideInInspector][SerializeField] private byte[] _data;
 
         public byte[] Data => _data;
 
