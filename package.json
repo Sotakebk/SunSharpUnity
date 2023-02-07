@@ -1,6 +1,6 @@
 {
   "name": "com.sotakebk.sunsharp.unity",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "displayName": "SunSharp for Unity",
   "description": "A Unity version of the SunVox C# wrapper. Read more on the GitHub page.",
   "license": "See LICENSE.md file",
