@@ -1,12 +1,12 @@
-using UnityEditor;
-
 #if UNITY_EDITOR
-
+using UnityEditor;
 #endif
 
 namespace SunSharp.Unity
 {
+#if UNITY_EDITOR
     [InitializeOnLoad]
+#endif
     public static class Library
     {
         private static LibraryProxy _proxy;
