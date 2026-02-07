@@ -1,6 +1,6 @@
 {
   "name": "com.sotakebk.sunsharp.unity",
-  "version": "1.0.1",
+  "version": "2.0.0-dev20260207",
   "displayName": "SunSharp for Unity",
   "description": "A Unity version of the SunVox C# wrapper. Read more on the GitHub page.",
   "license": "See LICENSE.md file",
@@ -13,7 +13,7 @@
   ],
   "author": {
     "name": "Sotakebk",
-    "email": "sotakebk@gmail.com",
-    "url": "https://github.com/Sotakebk/"
+    "url": "https://github.com/Sotakebk/",
+    "email": "sotakebk@gmail.com"
   }
 }
